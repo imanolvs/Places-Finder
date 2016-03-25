@@ -1,11 +1,11 @@
 # Places-Finder
 
 Steps for import, build and run the project:
-1. Clone the repository using the next command: "git clone https://github.com/imanolvs/Places-Finder.git"
-2. Open the project (Places Finder.xcodeproj file)
-3. For build the project: 
+- Clone the repository using the next command: "git clone https://github.com/imanolvs/Places-Finder.git"
+- Open the project (Places Finder.xcodeproj file)
+- For build the project: 
     - Select Product -> Build (⌘B)
-4. For run the project in the simulator:
+- For run the project in the simulator:
     - Select the iOS device in the toolbar
     - Select Product -> Run (⌘R)
     - If there no errors, simulator will be open and you can use the app in it.

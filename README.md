@@ -27,29 +27,29 @@ You can also download the app into your own iOS device:
   
 ##How the app works
 
-**Open the app menu**
+- **Open the app menu**
     - Slide the screen to the right (open menu) or left (close menu), or
     - Tap the top left corner button
 
-**Menu entries**
+- **Menu entries**
     - Favorites: This option will show your favorite places (previously, you should add the place to your favorites, in the place detail view). You can select between restaurants, hotels and leisures, tapping in the three top tab-buttons. Select one place to see detail view
     - Restaurants. Select restaurants based on location and filter options
     - Hotels. Select hotels based on location and filter options
     - Leisure Sites. Select leisure sites based on location and filter options
-**Select location**
+- **Select location**
     - Long click on the map to select location
     - Tap the top right button to select current location
     - Use the search bar. A pin will appear on the map that you can click to select the location
-**Apply filters**
+- **Apply filters**
     - Radius: Radius in Km to define search radius around you
     - Price: Set the maximum price of the place.
     - Open Now: Select places right now open/close
     - Leisure Venue Type (Only for Leisure Type)
-**Show places**
+- **Show places**
     - Select *Show Map* or *Show List*
     - Places display *Name*, *Rating*, and *Photo*
     - Tap on a place to show more details
-**Places detail view**
+- **Places detail view**
     - Slide through the photo collection
     - Name and rating.
     - Schedule.

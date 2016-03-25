@@ -200,12 +200,12 @@ class PlaceDetailsViewController : UITableViewController, UICollectionViewDataSo
         let predicate = NSPredicate(format: "placeID == %@", self.placeID)
         fetchRequest.predicate = predicate
         
-        var targetPlace : AnyObject? = nil
+        var targetPlace = [AnyObject]()
         do { targetPlace = try sharedContext.executeFetchRequest(fetchRequest) }
         catch { print(error) }
         
-        if targetPlace?.count == 0 { return nil }
-        return targetPlace![0] as? Place    //This is the place we are looking for!
+        if targetPlace.count == 0 { return nil }
+        return targetPlace[0] as? Place    //This is the place we are looking for!
     }
 }
 

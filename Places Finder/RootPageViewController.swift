@@ -57,7 +57,7 @@ class RootPageViewController : UIViewController, UIPageViewControllerDataSource,
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
         
         var index = (viewController as! PageContentViewController).pageIndex!
-        index++
+        index += 1
         if index == photoReferences.count { return nil }
         
         return viewControllerAtIndex(index)

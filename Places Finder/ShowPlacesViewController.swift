@@ -142,6 +142,7 @@ extension ShowPlacesViewController {
             parameters[GoogleConstants.ParameterKeys.OpenNow] = "true"
         }
         if price != nil {
+            parameters[GoogleConstants.ParameterKeys.MinPrice] = price
             parameters[GoogleConstants.ParameterKeys.MaxPrice] = price
         }
         if typeOfPlace == TypeOfPlace.Restaurant {

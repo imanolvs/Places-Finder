@@ -300,7 +300,7 @@ class CosmosLayers {
       
       let starLayer = createCompositeStarLayer(fillLevel, settings: settings)
       starLayers.append(starLayer)
-      ratingRemander--
+      ratingRemander -= 1
     }
 
     positionStarLayers(starLayers, starMargin: settings.starMargin)
@@ -1359,6 +1359,7 @@ struct StarLayer {
   
   */
   static func createStarPath(starPoints: [CGPoint], size: Double, var lineWidth: Double) -> UIBezierPath {
+    
     lineWidth += ceil(lineWidth * 0.3)
     let sizeWithoutLineWidth = size - lineWidth * 2
     

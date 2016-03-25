@@ -28,7 +28,7 @@ class LocationViewController: UITableViewController, MKMapViewDelegate, CLLocati
     override func viewDidLoad() {
         if revealViewController() != nil {
             menuButton.target = revealViewController()
-            menuButton.action = "revealToggle:"
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
 

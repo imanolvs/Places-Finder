@@ -69,7 +69,7 @@ class FilterOptionsViewController : UITableViewController {
         
         print(location.coordinate)
         
-        let searchButton = UIBarButtonItem(title: "Search Places", style: .Plain, target: self, action: Selector("didTapStartSearch"))
+        let searchButton = UIBarButtonItem(title: "Search Places", style: .Plain, target: self, action: #selector(FilterOptionsViewController.didTapStartSearch))
         self.navigationItem.rightBarButtonItem = searchButton
         
         radiusMenu = UIAlertController(title: nil, message: "Choose an Option", preferredStyle: .ActionSheet)

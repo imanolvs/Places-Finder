@@ -54,7 +54,7 @@ class GoogleClient : NSObject {
     
     // MARK: Network Method for searching places though Google API
     private func taskForSearchPlace(parameters: [String:AnyObject], searchMethodType: String, completionHandler: (nextPageToken: String?, results: [[String:AnyObject]]?, error: String?) -> Void) -> NSURLSessionDataTask {
-        
+
         var urlString = GoogleConstants.GooglePlaces.BaseURLMethod + searchMethodType
         for (key, value) in parameters {
             urlString += "\(key)=\(value)&"

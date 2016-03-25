@@ -36,7 +36,7 @@ class GoogleConstants {
         static let Name = "name"
         static let PlaceID = "placeid"
         static let MinPrice = "minprice"
-        static let MaxPrixe = "maxprice"
+        static let MaxPrice = "maxprice"
         static let OpenNow = "opennow"
         static let PageToken = "pagetoken"
         static let PhotoReference = "photoreference"

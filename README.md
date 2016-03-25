@@ -15,6 +15,6 @@ If you want load the app in a device, you have to follow next steps:
   - Add your Apple ID Account
   - Connect your iOS Device
   - Select your iOS Device in the toolbar
-  - Build and Run the project
+  - Build and Run the project (⌘R)
   
   
